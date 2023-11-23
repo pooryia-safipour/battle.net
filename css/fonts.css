@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ObjectSans-Bold;
+  src: url(/fonts/ObjectSans-Bold/ObjectSans-Bold.eot);
+  src: url(/fonts/ObjectSans-Bold/ObjectSans-Bold.woff);
+  src: url(/fonts/ObjectSans-Bold/ObjectSans-Bold.woff2);
+  src: url(/fonts/ObjectSans-Bold/ObjectSans-Bold.ttf);
+}
+@font-face {
+  font-family:NotoSans;
+  src: url(/fonts/NotoSans/NotoSans.eot);
+  src: url(/fonts/NotoSans/NotoSans.ttf);
+  src: url(/fonts/NotoSans/NotoSans.woff);
+  src: url(/fonts/NotoSans/NotoSans.woff2);
+}
+@font-face {
+  font-family:NotoSans-Bold;
+  src: url(/fonts/NotoSans-Bold/NotoSans-Bold.eot);
+  src: url(/fonts/NotoSans-Bold/NotoSans-Bold.ttf);
+  src: url(/fonts/NotoSans-Bold/NotoSans-Bold.woff);
+  src: url(/fonts/NotoSans-Bold/NotoSans-Bold.woff2);
+}

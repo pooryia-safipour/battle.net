@@ -1,0 +1,9 @@
+@import "/css/setting.css";
+@import "/css/fonts.css";
+@import "/css/xxl.css" screen and (min-width: 1400px);
+@import "/css/xl.css" screen and (min-width: 1200px) and (max-width: 1400px);
+@import "/css/lg.css" screen and (min-width: 959px) and (max-width: 1200px);
+@import "/css/md.css" screen and (min-width: 768px) and (max-width: 959px);
+@import "/css/sm.css" screen and (min-width: 576px) and (max-width: 768px);
+@import "/css/xsm.css" screen and (max-width: 576px);
+@import "/css/footer.css"

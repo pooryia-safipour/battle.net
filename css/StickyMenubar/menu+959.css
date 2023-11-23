@@ -1,0 +1,338 @@
+div.container nav.sticky-menubar {
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #15171e;
+}
+div.container nav.sticky-menubar div.sticky-menubar-items {
+  display: flex;
+  background-color: #23252b;
+  border-radius: 4px;
+  width: 100%;
+  height: inherit;
+}
+.sticky-menubar-items-Close {
+  display: none !important;
+}
+div.container nav.sticky-menubar div.menu-objects {
+  display: flex;
+  height: inherit;
+  padding: 0 16px;
+  align-items: center;
+  color: #ffffffb8;
+  background-color: #23252b;
+  position: relative;
+  cursor: pointer;
+}
+i.fa-solid {
+  font-size: 9.5px;
+  margin: 0 0 0 6px;
+  color: #ffffffb8;
+}
+div.menu-objects span.object-names {
+  font-family: NotoSans-bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+div.search {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252b;
+  border-radius: 4px 0 0 4px;
+  margin: 0 0 0 10px;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: 500ms;
+}
+.searchOpen {
+  width: 100% !important;
+}
+div.search i.fa-magnifying-glass {
+  font-size: 23px;
+  color: #ffffff;
+  margin: 0 8px;
+}
+input.searchinput {
+  display: none;
+  background-color: #23252b;
+  width: 100%;
+  border-style: none;
+  border-radius: 4px;
+  height: 54px;
+  padding: 5px;
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+  color: #ffffff;
+  transition: 500ms;
+}
+input.searchinput:hover {
+  background-color: #4e5055;
+}
+input.searchinput::-webkit-search-cancel-button {
+  display: none;
+}
+input.searchinput:focus {
+  border: none;
+  outline: none;
+}
+.searchinputOpen {
+  display: flex !important ;
+}
+input.searchinput::placeholder {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0 10px;
+}
+div.remover {
+  display: none;
+}
+div.removerOpen {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  background-color: #23252b;
+  border-radius: 0 4px 4px 0;
+  margin: 0 10px 0 0px;
+  padding: 0 12px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+.fa-xmark {
+  display: flex !important;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 0 15px;
+}
+nav.sticky-menubar div.submenuWarcraft {
+  display: none;
+}
+.submenuWarcraftOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuWarcraft div.warcraft {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.warcrafts {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.warcrafts {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+nav.sticky-menubar div.submenuCallofDuty {
+  display: none;
+}
+.submenuCallofDutyOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuCallofDuty div.callofduty {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.callofduty {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.callofduty {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+nav.sticky-menubar div.submenuDiablo {
+  display: none;
+}
+.submenuDiabloOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuDiablo div.Diablo {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.Diablo {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.Diablo {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+nav.sticky-menubar div.submenuoverwatch {
+  display: none;
+}
+.submenuoverwatchOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuoverwatch div.overwatch {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.overwatch {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.overwatch {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+nav.sticky-menubar div.submenuStarCraft {
+  display: none;
+}
+.submenuStarCraftOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuStarCraft div.StarCraft {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.StarCraft {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.StarCraft {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+nav.sticky-menubar div.submenuMore {
+  display: none;
+}
+.submenuMoreOpen {
+  display: flex !important;
+  flex-flow: column wrap;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 280px;
+  background-color: #23252b;
+  margin-top: 0.5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  border: 1px solid #ffffffb8;
+}
+nav.sticky-menubar div.submenuMore div.More {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+img.More {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.More {
+  font-family: NotoSans-Bold;
+  font-size: 13px;
+}
+.batllebalance {
+  margin: 0 0 0 10px;
+}
+.menuobjectshover {
+  background-color: #4e5055 !important;
+  transition: 500ms;
+}
+.MenuhoverAnimation {
+  animation: Menuhover 200ms linear 0s 1 normal forwards;
+}
+@keyframes Menuhover {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+div.warcraft,
+div.callofduty,
+div.Diablo,
+div.overwatch,
+div.StarCraft,
+div.More {
+  margin: 10px 0 10px 0;
+}
+div.warcraft:hover,
+div.callofduty:hover,
+div.Diablo:hover,
+div.overwatch:hover,
+div.StarCraft:hover,
+div.More:hover {
+  background-color: #4e5055;
+  border-radius: 4px;
+}
+div.searchnav {
+  display: none;
+}

@@ -1,0 +1,453 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Recommended",
+      "product": [
+        {
+          "id": 1,
+          "image": "/Images/products/diablo.jpg",
+          "alt": "product-1-img-1",
+          "link": "",
+          "name": "Diablo IV",
+          "title": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        },
+        {
+          "id": 2,
+          "image": "/Images/products/blizzcon.jpg",
+          "alt": "product-1-img-2",
+          "link": "",
+          "name": "BlizzCon",
+          "title": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 3,
+          "image": "/Images/products/diablo2.jpg",
+          "alt": "product-1-img-3",
+          "link": " ",
+          "name": "Diablo IV",
+          "title": "Premium Battle Pass - Season of Blood",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Premium Battle pass - featuring 90 tiers of rewards!"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 4,
+          "image": "/Images/products/wow.jpg",
+          "alt": "product-1-img-4",
+          "link": " ",
+          "name": "World of Warcraft",
+          "title": "World of Warcraft®: Dragonflight",
+          "yellowContent": [],
+          "content": "Massively Multiplayer RPG"
+        },
+        {
+          "id": 5,
+          "image": "/Images/products/ow2.jpg",
+          "alt": "product-1-img-5",
+          "link": " ",
+          "name": "Overwatch 2",
+          "title": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season Seven",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Overwatch 2: Season Seven Premium Battle Pass + 20 Tiers,Lilith Moira and Inarius Pharah Legendary Skins, 2000 OW Coins,and More!"
+            }
+          ],
+          "content": "Team-Based Action Game"
+        },
+        {
+          "id": 6,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-1-img-6",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 7,
+          "image": "/Images/products/hs.jpg",
+          "alt": "product-1-img-7",
+          "link": " ",
+          "name": "Hearthstone",
+          "title": "TITANS Packs",
+          "yellowContent": [],
+          "content": "Card Packs"
+        },
+        {
+          "id": 8,
+          "image": "/Images/products/wz.jpg",
+          "alt": "product-1-img-8",
+          "link": " ",
+          "name": "Call of Duty: Warzone",
+          "title": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "Free-To-Play Action Shooter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Featured",
+      "product": [
+        {
+          "id": 1,
+          "image": "/Images/products/blizzcon.jpg",
+          "alt": "product-2-img-1",
+          "link": " ",
+          "name": "BlizzCon",
+          "title": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 2,
+          "image": "/Images/products/rumble.jpg",
+          "alt": "product-2-img-2",
+          "link": " ",
+          "name": "WARCRAFT RUMBLE",
+          "title": "Coin Packs",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Use coins to purchase minis,tomes of experience,talents, and more! "
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 3,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-2-img-3",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 4,
+          "image": "/Images/products/ow2.jpg",
+          "alt": "product-4-img-4",
+          "link": " ",
+          "name": "Overwatch 2",
+          "title": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season Seven",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Overwatch 2: Season Seven Premium Battle Pass + 20 Tiers,Lilith Moira and Inarius Pharah Legendary Skins, 2000 OW Coins,and More!"
+            }
+          ],
+          "content": "Team-Based Action Game"
+        },
+        {
+          "id": 5,
+          "image": "/Images/products/diablo2-2.jpg",
+          "alt": "product-2-img-5",
+          "link": " ",
+          "name": "Diablo IV",
+          "title": "Premium Battle Pass - Season of Blood",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Premium Battle pass - featuring 90 tiers of rewards!"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 6,
+          "image": "/Images/products/wow.jpg",
+          "alt": "product-2-img-6",
+          "link": " ",
+          "name": "World of Warcraft",
+          "title": "World of Warcraft®: Dragonflight",
+          "yellowContent": [],
+          "content": "Massively Multiplayer RPG"
+        },
+        {
+          "id": 7,
+          "image": "/Images/products/hs2.jpg",
+          "alt": "product-2-img-7",
+          "link": " ",
+          "name": "Hearthstone",
+          "title": "Showdown in the Badlands Mega Bundle (Pre-purchase)",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Available through November 13, 2023"
+            }
+          ],
+          "content": "Card Packs"
+        },
+        {
+          "id": 8,
+          "image": "/Images/products/wz.jpg",
+          "alt": "product-2-img-8",
+          "link": " ",
+          "name": "Call of Duty: Warzone",
+          "title": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "Free-To-Play Action Shooter"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Trending Now",
+      "product": [
+        {
+          "id": 1,
+          "image": "/Images/products/blizzcon.jpg",
+          "alt": "product-3-img-1",
+          "link": " ",
+          "name": "BlizzCon",
+          "title": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 2,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-3-img-2",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 3,
+          "image": "/Images/products/Battlenet-Balance.jpg",
+          "alt": "product-3-img-3",
+          "link": " ",
+          "name": "Battle.net Services",
+          "title": "Battle.net® Balance",
+          "yellowContent": [],
+          "content": "Game Services"
+        },
+        {
+          "id": 4,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-3-img-4",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 5,
+          "image": "/Images/products/diablo2-2.jpg",
+          "alt": "product-3-img-5",
+          "link": " ",
+          "name": "Diablo IV",
+          "title": "Diablo® IV Platinum",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Upgrade your Battle Pass & make shop purchases"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 6,
+          "image": "/Images/products/ow2-2.jpg",
+          "alt": "product-3-img-6",
+          "link": " ",
+          "name": "Overwatch 2",
+          "title": "Overwatch® 2 – Overwatch Coins",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Use Overwatch Coins to Get the Premium Battle Pass and More!"
+            }
+          ],
+          "content": "Coins and Tokens"
+        },
+        {
+          "id": 7,
+          "image": "/Images/products/wowcl.jpg",
+          "alt": "product-3-img-7",
+          "link": " ",
+          "name": "World of Warcraft Classic",
+          "title": "Northrend Heroic Upgrade",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Wrath of the Lich King Classic IS INCLUDED with your WoW Subscription."
+            }
+          ],
+          "content": "Game Upgrades"
+        },
+        {
+          "id": 8,
+          "image": "/Images/products/diablo.jpg",
+          "alt": "product-3-img-8",
+          "link": " ",
+          "name": "Diablo IV",
+          "title": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Most Gifted",
+      "product": [
+        {
+          "id": 1,
+          "image": "/Images/products/Battlenet-Balance.jpg",
+          "alt": "product-4-img-1",
+          "link": " ",
+          "name": "Battle.net Services",
+          "title": "Battle.net® Balance",
+          "yellowContent": [],
+          "content": "Game Services"
+        },
+        {
+          "id": 2,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-4-img-2",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III ",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 3,
+          "image": "/Images/products/wow.jpg",
+          "alt": "product-4-img-3",
+          "link": " ",
+          "name": "World of Warcraft",
+          "title": "60 Days of Game Time",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Includes access to World of Warcraft, Wrath of the Lich King Classic, and Classic Hardcore Realms!"
+            }
+          ],
+          "content": "Game Services"
+        },
+        {
+          "id": 4,
+          "image": "/Images/products/ow2-2.jpg",
+          "alt": "product-4-img-4",
+          "link": " ",
+          "name": "Overwatch 2",
+          "title": "Overwatch® 2 – Overwatch Coins",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Use Overwatch Coins to Get the Premium Battle Pass and More!"
+            }
+          ],
+          "content": "Coins and Tokens"
+        },
+        {
+          "id": 5,
+          "image": "/Images/products/mw3.jpg",
+          "alt": "product-4-img-5",
+          "link": " ",
+          "name": "Call of Duty: Modern Warfare III",
+          "title": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 6,
+          "image": "/Images/products/wz.jpg",
+          "alt": "product-4-img-6",
+          "link": " ",
+          "name": "Call of Duty: Warzone",
+          "title": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Available for a limited time! Leaves the Shop indefinitely on October 31, 2023."
+            }
+          ],
+          "content": "pets"
+        },
+        {
+          "id": 7,
+          "image": "/Images/products/diablo2.jpg",
+          "alt": "product-4-img-7",
+          "link": " ",
+          "name": "Diablo IV",
+          "title": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        },
+        {
+          "id": 8,
+          "image": "/Images/products/blizzcon.jpg",
+          "alt": "product-4-img-8",
+          "link": " ",
+          "name": "BlizzCon",
+          "title": "BlizzCon® Collection",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "In-Game Content"
+        }
+      ]
+    }
+  ]
+}

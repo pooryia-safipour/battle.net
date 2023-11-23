@@ -1,0 +1,212 @@
+div > div.navbar {
+  height: 72px;
+  padding: 0 16px;
+  background-color: #15171e;
+  display: flex;
+  align-items: center;
+}
+div > div > div.battlesvg {
+  min-width: 200px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
+}
+div > div > div.resize {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+div > div > div.resize > div.resizeinner {
+  display: inline-flex;
+  align-items: center;
+}
+div > div > div.secondnavbar {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+div > div > div > div.downloadicon {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 200ms;
+}
+div > div > div > div.downloadicon:hover {
+  background-color: #23252b;
+}
+div > div > div > div.downlodicon > div {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div > div > div > div > div > i.fa-regular {
+  font-size: 20px;
+  color: #85868a;
+  align-items: center;
+}
+div > div > div > div.downloadicon:hover i.fa-regular {
+  color: #ffffff;
+}
+div.downloadtext {
+  padding-left: 12px;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: ObjectSans-Bold;
+}
+div.navbar div.support {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 200ms;
+}
+div.navbar div.support:hover {
+  background-color: #23252b;
+}
+div.navbar div.support > i.supporticon {
+  color: #85868a;
+  font-size: 20px;
+}
+div.navbar div.support:hover > i.supporticon {
+  color: #ffffff;
+}
+div.navbar div.support div.supporttext {
+  font-size: 16px;
+  font-family: ObjectSans-Bold;
+  color: #ffffff;
+  padding: 0 12px;
+}
+div.navbar div.account {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 200ms;
+}
+div.navbar div.account:hover {
+  background-color: #23252b;
+}
+div.navbar div.account i.accounticon {
+  font-size: 20px;
+  color: #85868a;
+}
+div.navbar div.account:hover i.accounticon {
+  color: #ffffff;
+}
+div.navbar div.account div.accounttext {
+  font-size: 16px;
+  font-family: ObjectSans-Bold;
+  color: #ffffff;
+  padding-left: 12px;
+}
+div.account i.fa-chevron-down {
+  font-size: 8px;
+  color: #85868a;
+  padding-left: 8px;
+}
+div.menubar {
+  display: none;
+}
+div.accountSubmenu{
+  display: none;
+}
+.accountSubmenuOpen {
+  width: 320px;
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-radius: 4px;
+  position: relative;
+  left: calc(100% - 320px);
+  top: -70px;
+  border: 1px solid #3f3f3f;
+}
+div.accountSubmenu div.accountSubmenuInner{
+  background-color: #23252b;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+div.accountSubmenu div.accountSubmenuInnerStyle{
+  font-family: NotoSans;
+  font-size: 17px;
+  display: flex;
+  color: #85868a;
+  padding: 0 20px 0 20px;
+  background-color: #15171e;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+}
+.fa-gear,.fa-barcode,.fa-slider,.fa-heart,.fa-pencil{
+  font-size: 20px;
+  margin:0 15px 0 15px ;
+}
+div.accountSubmenu div.createAccount{
+  font-family: NotoSans;
+  font-size: 17px;
+  display: flex;
+  color: #85868a;
+  padding: 0 20px;
+  width: 100%;
+  height: 52px;
+  align-items: center;
+  border-radius: 4px;
+}
+div.accountSubmenu div.logInButton{
+  font-family: NotoSans-Bold;
+  font-size: 20px;
+  width: 238px;
+  height: 48px;
+  background-color: #0074E0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 4px;
+}
+div.loginBG{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #15171e;
+  padding:20px 0 20px 0;
+  border-radius: 4px;
+
+}
+div.accountSubmenu div.arrow{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  background-color: #15171e;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 70px;
+  top: -9.8px;
+  border-top:0.5px solid #3f3f3f ;
+  border-left:0.5px solid #3f3f3f ;
+}
+div.menuClose{
+  display: none;
+}

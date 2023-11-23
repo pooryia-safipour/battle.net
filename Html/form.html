@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle.net Login</title>
+    <link rel="stylesheet" href="/css/loginform.css">
+    <link rel="stylesheet" type="text/css" href="/icon/css/all.css" />
+    <link
+      rel="shortcut icon"
+      href="/Images/favicon-16x16.png"
+      type="image/x-icon"
+    />
+</head>
+<body>
+    <div class="container">
+    <div class="form">
+      <h2>Log In</h2>
+      <div class="logos">
+        <form action="login/signin google" method="post"><button class="logo google"><i class="fa-brands fa-google"></i></button></form>
+        <form action="login/signin facebook" method="post"><button class="logo facebook"><i class="fa-brands fa-facebook"></i></button></form>
+        <form action="login/signin apple" method="post"><button class="logo apple"><i class="fa-brands fa-apple"></i></button></form>
+    </div>
+    <div class="loginor">
+      <span class="orlogin">Or Login in With</span>
+    </div>
+    <form action="login/username" method="post" class="user">
+      <input type="text" name="username" id="username" placeholder="Email or Phone" autocomplete="off">
+    </form>
+    <form action="login/password" method="post" class="pass">
+      <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+    </form>
+    <form action="login/submit" method="post" class="submit">
+      <input type="submit" name="submit" id="submit" placeholder="submit" value="Log In">
+    </form>
+    <a href="https://www.google.com" class="creat" target="_blank">Create a Account</a>
+  </div>
+    
+</body>
+</html>

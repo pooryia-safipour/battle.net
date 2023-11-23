@@ -1,0 +1,51 @@
+.groups {
+    width: 100%;
+    padding: 15px;
+  }
+  .groups h2 {
+    font-family: NotoSans-Bold;
+    color: #d3dedf;
+    margin-bottom: 1rem;
+  }
+  .groups .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .groups .items .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #23252b;
+    border-radius: 4px;
+    max-width: 23.5%;
+    font-family: NotoSans;
+    overflow: hidden;
+    padding-bottom: 2.5rem;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  .groups .items .card:hover{
+  background-color: #5a5c5c86;
+  }
+  .groups .items .card .img-box img {
+    width: 100%;
+  }
+  .groups .items .card .content-box {
+    padding: 0.85rem;
+  }
+  .groups .items .card .content-box .name {
+    color: #c2c2c2;
+  }
+  .groups .items .card .content-box .title {
+    color: #d3dedf;
+    margin-bottom: 0.4rem;
+  }
+  .groups .items .card .content-box .yellow-content {
+    color: DARKORANGE;
+    display: inline-block;
+    line-height: 15px;
+  }
+  .groups .items .card .content-box .item-content {
+    color: #d3dedf;
+  }
+  

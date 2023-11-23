@@ -1,0 +1,256 @@
+div.container nav.sticky-menubar {
+  width: 100%;
+  height: 100%;
+  padding: 0 0px;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: -100%;
+  transition: 200ms;
+}
+.sticky-menubarOpen {
+  left: 0 !important;
+}
+div.container nav.sticky-menubar div.sticky-menubar-items {
+  display: flex;
+  flex-direction: column;
+  background-color: #15171e;
+  border-radius: 4px;
+  width: 460px;
+  height: inherit;
+  position: relative;
+  left: 0;
+  z-index: 0;
+}
+div.menu-objects {
+  width: 100%;
+  font-family: NotoSans;
+  font-size: 15px;
+  color: #ffffffb8;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.warcraft:hover,
+div.callofduty:hover,
+div.Diablo:hover,
+div.overwatch:hover,
+div.StarCraft:hover,
+div.More:hover {
+  background-color: #23252b;
+}
+div.menu-objects:hover {
+  background-color: #23252b;
+}
+div.batllebalance {
+  display: none;
+}
+div.warcarft-object {
+  display: flex;
+  flex-direction: column;
+}
+div.submenuWarcraft {
+  display: none;
+}
+div.submenuWarcraftOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.warcraft {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.warcrafts {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.warcrafts {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+div.callofduty-object {
+  display: flex;
+  flex-direction: column;
+}
+
+div.submenuCallofDuty {
+  display: none;
+}
+div.submenuCallofDutyOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.callofduty {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.callofduty {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.callofduty {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+div.diablo-object {
+  display: flex;
+  flex-direction: column;
+}
+div.submenuDiablo {
+  display: none;
+}
+div.submenuDiabloOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.Diablo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.Diablo {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.Diablo {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+div.overwatch-object {
+  display: flex;
+  flex-direction: column;
+}
+div.submenuoverwatch {
+  display: none;
+}
+div.submenuoverwatchOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.overwatch {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.overwatch {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.overwatch {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+div.starcraft-object {
+  display: flex;
+  flex-direction: column;
+}
+div.submenuStarCraft {
+  display: none;
+}
+div.submenuStarCraftOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.StarCraft {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.StarCraft {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.StarCraft {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+div.more-object {
+  display: flex;
+  flex-direction: column;
+}
+div.submenuMore {
+  display: none;
+}
+div.submenuMoreOpen2 {
+  width: 100%;
+  background-color: #111218;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.More {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img.More {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+span.More {
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+}
+span.object-names {
+  margin-bottom: 15px;
+}
+div.search,
+div.remover {
+  display: none;
+}
+.searchinputnav {
+  width: 100%;
+  height: 40px;
+  background-color: #23252b;
+  border-style: none;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: NotoSans-Bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+input.searchinputnav::-webkit-search-cancel-button {
+  display: none;
+}
+input.searchinputnav:focus {
+  border: none;
+  outline: none;
+}
+div.searchnav {
+  width: 100%;
+  position: fixed;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252b;
+  border-radius: 4px 0 0 4px;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: 500ms;
+}
